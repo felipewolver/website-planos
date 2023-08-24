@@ -1,32 +1,54 @@
-import header_background from "../assets/images/header_background.png";
-import pattern_00 from "../assets/images/pattern_00.png";
-import pattern_1 from "../assets/images/pattern_1.png";
-import services_img_1 from "../assets/images/services_img_1.svg";
-import services_img_2 from "../assets/images/services_img_2.svg";
-import services_img_3 from "../assets/images/services_img_3.svg";
-import services_img_4 from "../assets/images/services_img_4.svg";
-import services_img_5 from "../assets/images/services_img_5.svg";
-import services_img_6 from "../assets/images/services_img_6.svg";
-import stat_img_1 from "../assets/images/stat_img_1.png";
-import stat_img_2 from "../assets/images/stat_img_2.png";
-import stat_img_3 from "../assets/images/stat_img_3.png";
-import stat_img_4 from "../assets/images/stat_img_4.png";
-import logo_img_1 from "../assets/images/logo_img_1.png";
-import logo_img_2 from "../assets/images/logo_img_2.png";
-import logo_img_3 from "../assets/images/logo_img_3.png";
-import logo_img_4 from "../assets/images/logo_img_4.png";
-import logo_img_5 from "../assets/images/logo_img_5.png";
-import logo_img_6 from "../assets/images/logo_img_6.png";
-import work_img_1 from "../assets/images/work_img_1.png";
-import work_img_2 from "../assets/images/work_img_2.png";
-import work_img_3 from "../assets/images/work_img_3.png";
-import work_img_4 from "../assets/images/work_img_4.png";
-import work_img_5 from "../assets/images/work_img_5.png";
-import work_img_6 from "../assets/images/work_img_6.png";
-import About_Alex from "../assets/images/About_Alex.jpg";
-import subscribe_background from "../assets/images/subscribe_background.jpeg";
+import header_bg from "../assets/images/header-bg.jpg";
+import logo from "../assets/images/logo.png";
+import signature from "../assets/images/signature.png";
+import icon_archer from "../assets/images/icon-archer.png"; 
+import icon_briefcase from "../assets/images/icon-briefcase.png";
+import icon_clock from "../assets/images/icon-clock.png";
+import icon_console from "../assets/images/icon-console.png";
+import icon_diamond from "../assets/images/icon-diamond.png";
+import icon_eye from "../assets/images/icon-eye.png";
+import icon_fantasy from "../assets/images/icon-fantasy.png";
+import icon_heart from "../assets/images/icon-heart.png";
+import icon_paint from "../assets/images/icon-paint.png";
+import icon_phone from "../assets/images/icon-phone.png";
+import icon_plane from "../assets/images/icon-plane.png";
+import icon_star from "../assets/images/icon-star.png";
+import icon_star_white from "../assets/images/icon-star-white.png";
 
-const images = {
-    header_background, pattern_00, pattern_1, services_img_1, services_img_2, services_img_3, services_img_4, services_img_5, services_img_6, stat_img_1, stat_img_2, stat_img_3, stat_img_4, logo_img_1, logo_img_2, logo_img_3, logo_img_4, logo_img_5, logo_img_6, work_img_1, work_img_2, work_img_3, work_img_4, work_img_5, work_img_6, About_Alex, subscribe_background
-}
-export default images;
+import skills_bg from "../assets/images/skills-bg.jpg";
+import work_1 from "../assets/images/work-1.jpg";
+import work_2 from "../assets/images/work-2.jpg";
+import work_3 from "../assets/images/work-3.jpg";
+import work_4 from "../assets/images/work-4.jpg";
+import work_5 from "../assets/images/work-5.jpg";
+import work_6 from "../assets/images/work-6.jpg";
+import work_7 from "../assets/images/work-7.jpg";
+import work_8 from "../assets/images/work-8.jpg";
+
+export default{
+    header_bg,
+    logo,
+    signature,
+    icon_archer,
+    icon_briefcase,
+    icon_clock, 
+    icon_console,
+    icon_diamond,
+    icon_eye,
+    icon_fantasy, 
+    icon_heart,
+    icon_paint,
+    icon_phone,
+    icon_plane,
+    icon_star,
+    icon_star_white,
+    skills_bg,
+    work_1,
+    work_2,
+    work_3,
+    work_4,
+    work_5,
+    work_6,
+    work_7,
+    work_8
+};

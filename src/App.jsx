@@ -1,7 +1,7 @@
 import "./assets/js/script";
 import './App.css'
 
-import Header from "./components/Header/header";
+import Header from "./components/Header/Header";
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+     
 
     </div>
   )

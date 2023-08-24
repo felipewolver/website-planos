@@ -119,6 +119,7 @@
 
   /* button */
 .btn {
+    display: inline-block; /* Vai deixar em bloco fazendo funcionar a margin-top */
     color: var(--white-color);
     letter-spacing: 1px;
     transition: var(--transition);

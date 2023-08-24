@@ -1,138 +1,139 @@
 import images from "./images";
 
-const services = [
+// skills
+const skills = [
     {
-        image: `${images.services_img_1}`,
-        title: "Web Design",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        title: "UI/UX DESIGN",
+        value: "80%"
     },
     {
-        image: `${images.services_img_2}`,
-        title: "Branding",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        title: "WEB DEVELOPMENT",
+        value: "75%"
     },
     {
-        image: `${images.services_img_3}`,
-        title: "UX Design",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        title: "APP DEVELOPMENT",
+        value: "45%"
     },
     {
-        image: `${images.services_img_4}`,
-        title: "Logo Create",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_5}`,
-        title: "Illustration",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
-    },
-    {
-        image: `${images.services_img_6}`,
-        title: "Graphics",
-        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+        title: "MARKETING",
+        value: "15%"
     },
 ];
 
+// stats
+const stats = [
+    {
+        img: `${images.icon_briefcase}`,
+        value:  548,
+        title: "projects completed"
+    },
+    {
+        img: `${images.icon_clock}`,
+        value: 1465,
+        title: "working hours"
+    },
+    {
+        img: `${images.icon_star_white}`,
+        value: 612,
+        title: "positive feedbacks"
+    },
+    {
+        img: `${images.icon_heart}`,
+        value: 735,
+        title: "happy clients"
+    },
+];
+
+// works
 const works = [
-    {
-        image: `${images.work_img_1}`
-    },
-    {
-        image: `${images.work_img_2}`
-    },
-    {
-        image: `${images.work_img_3}`
-    },
-    {
-        image: `${images.work_img_4}`
-    },
-    {
-        image: `${images.work_img_5}`
-    },
-    {
-        image: `${images.work_img_6}`
-    },
-];
-
-const work_process = [
-    {
-        title: "Sketch",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-    {
-        title: "Design",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-    {
-        title: "Develop",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-    {
-        title: "End-Product",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-];
-
-const about_stats = [
-    {
-        image: `${images.stat_img_1}`,
-        value: "1575",
-        title: "Clients"
-    },
-    {
-        image: `${images.stat_img_2}`,
-        value: "2416",
-        title: "Projects"
-    },
-    {
-        image: `${images.stat_img_3}`,
-        value: "4287",
-        title: "Working Hours"
-    },
-    {
-        image: `${images.stat_img_4}`,
-        value: "287",
-        title: "Awards"
-    },
-];
-
-const testimonials = [
-    {
-        name: "Lelia Merritt",
-        post: "Graphic Designer",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
-    },
-    {
-        name: "John Huston",
-        post: "Web Developer",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
-    },
-    {
-        name: "Jeniffer Green",
-        post: "Marketing Manager",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
-    },
+  {
+    img: `${images.work_1}`
+  },
+  {
+    img: `${images.work_2}`
+  },
+  {
+    img: `${images.work_3}`
+  },
+  {
+    img: `${images.work_4}`
+  },
+  {
+    img: `${images.work_5}`
+  },
+  {
+    img: `${images.work_6}`
+  },
+  {
+    img: `${images.work_7}`
+  },
+  {
+    img: `${images.work_8}`
+  }
 ]
 
-const logos = [
+// services
+const services = [
     {
-        image: `${images.logo_img_1}`
+        img: `${images.icon_diamond}`,
+        title: "UI / UX DESIGN",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
     },
     {
-        image: `${images.logo_img_2}`
+        img: `${images.icon_archer}`,
+        title: "WEB DEVELOPMENT",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
     },
     {
-        image: `${images.logo_img_3}`
+        img: `${images.icon_phone}`,
+        title: "APP / MOBILE",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
     },
     {
-        image: `${images.logo_img_4}`
+        img: `${images.icon_console}`,
+        title: "GAME DESIGN",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
     },
     {
-        image: `${images.test_img_5}`
+        img: `${images.icon_plane}`,
+        title: "SEO / MARKETING",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
     },
     {
-        image: `${images.test_img_6}`
+        img: `${images.icon_star}`,
+        title: "PHOTOGRAPHY",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
     },
+    {
+        img: `${images.icon_fantasy}`,
+        title: "GRAPHIC DESIGN",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+    },
+    {
+        img: `${images.icon_paint}`,
+        title: "ILLUSTRATIONS",
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.'
+    }
 ];
 
-export {services, works, work_process, about_stats, testimonials, logos};
+// testimonials
+const testimonials = [
+    {
+        name: "Christine Troughton, BPTC Officer",
+        text: "The staff and support are second to none. They are polished, proficient, accessible and patient.",
+    },
+    {
+        name: "Michael Hopkins",
+        text: "Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap."
+    },
+    {
+        name: "Terry Overacker",
+        text: "We completed our product website with Dev.Point and are so excited to have it live!! It is so professionally done and eye appealing, not to mention how great it looks and works. We love how easy it is to make changes ourselves, yet know we have the support when/if we need it."
+    },
+    {
+        name: "Tim K. & Kristen H.",
+        text: "When you choose Dev.Point you get a wonderful, professional team with innovative ideas, awesome customer service, and exactly what you're looking for. It took the ideas that we had and put them perfecly on the web."
+    }
+];
+
+export default {skills, stats, works, services, testimonials};
