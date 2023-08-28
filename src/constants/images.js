@@ -25,6 +25,22 @@ import work_6 from "../assets/images/work-6.jpg";
 import work_7 from "../assets/images/work-7.jpg";
 import work_8 from "../assets/images/work-8.jpg";
 
+import service_1 from "../assets/images/work_img_1.png";
+import service_2 from "../assets/images/work_img_2.png";
+import service_3 from "../assets/images/work_img_3.png";
+import service_4 from "../assets/images/work_img_4.png";
+import service_5 from "../assets/images/work_img_5.png";
+import service_6 from "../assets/images/work_img_6.png";
+
+import services_img_1 from "../assets/images/services_img_3.svg";
+import services_img_2 from "../assets/images/services_img_3.svg";
+import services_img_3 from "../assets/images/services_img_3.svg";
+import services_img_4 from "../assets/images/services_img_3.svg";
+import services_img_5 from "../assets/images/services_img_3.svg";
+import services_img_6 from "../assets/images/services_img_3.svg";
+
+import header_background from "../assets/images/header_background.png";
+
 export default{
     header_bg,
     logo,
@@ -50,5 +66,18 @@ export default{
     work_5,
     work_6,
     work_7,
-    work_8
+    work_8,
+    service_1,
+    service_2,
+    service_3,
+    service_4,
+    service_5,
+    service_6,
+    services_img_1,
+    services_img_2,
+    services_img_3,
+    services_img_4,
+    services_img_5,
+    services_img_6,
+    header_background
 };

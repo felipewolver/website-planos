@@ -1,6 +1,6 @@
 .container {
     max-width: 1200px;
-    margin: 0auto;
+    margin: 0 auto;
     padding: 0 2rem;
 }
 
@@ -177,6 +177,12 @@
 .resize-animation-stopper {
     animation: none !important;
     transition: none !important
+}
+
+.section-title {
+    width: 320px;
+    margin: 0 auto !important;
+    padding: 1rem;
 }
 
 .App {
