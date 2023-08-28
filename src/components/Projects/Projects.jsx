@@ -15,7 +15,8 @@ const Projects = () => {
 
                 <div className="projects-content grid py-6">
                     { data.works.map((work, index) => (
-                        <div className="projects-item text-center" key={index}>
+                        <div className="projects-item text-center" 
+                            key={index} data-aos="zoom-in" >
                             <img src={work.img} alt="Projetos" className="mx-auto" />
                             <h4 className="text-upper"> {work.title} </h4>
                         </div>

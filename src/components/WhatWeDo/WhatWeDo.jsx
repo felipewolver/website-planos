@@ -18,10 +18,10 @@ const WhatWeDo = () => {
                     {data.services.map((service, index) => (
                         <div className="what-we-do-item grid text-center"
                             key={index} >
-                            <div className="what-we-do-item-left">
+                            <div className="what-we-do-item-left" data-aos="fade-right">
                                 <img src={service.img} alt="" className="mx-auto" />
                             </div>
-                            <div className="what-we-do-right">
+                            <div className="what-we-do-right" data-aos="fade-left">
                                 <h4 className="text-upper fs-20"> {service.title} </h4>
                                 <p className="text mx-auto"> {service.text} </p>
                                 <a href="" className="btn btn-red"> veja mais </a>

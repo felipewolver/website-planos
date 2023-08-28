@@ -15,7 +15,8 @@ const Team = () => {
 
                 <div className="team-content py-6 grid">
                     { data.testimonials.map((testimonial, index) => (
-                        <div className="team-item text-center text-white" key={index}>
+                        <div className="team-item text-center text-white" 
+                            key={index} data-aos="fade-up" >
                             <img src={testimonial.img} alt="Equipe" className="mx-auto" />
                             <p className="text-upper fw-7"> {testimonial.name} </p>
                             <span className="text-upper"> {testimonial.text} </span>

@@ -46,23 +46,23 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <a href="#header" className="nav-link"> features </a>
+                            <a href="#features" className="nav-link"> features </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#header" className="nav-link"> pacotes </a>
+                            <a href="#packages" className="nav-link"> pacotes </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#header" className="nav-link"> projetos </a>
+                            <a href="#projects" className="nav-link"> projetos </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#header" className="nav-link"> equipes </a>
+                            <a href="#team" className="nav-link"> equipes </a>
                         </li>
 
                         <li className="nav-item">
-                            <a href="#header" className="nav-link"> suportes </a>
+                            <a href="#support" className="nav-link"> suportes </a>
                         </li>
 
                     </ul>

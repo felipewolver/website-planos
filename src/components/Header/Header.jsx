@@ -15,7 +15,7 @@ const Header = () => {
                 <div className="header-content grid text-center 
                     py-6 text-white"
                 > {/* As classes grid text-center py... procedem do arquivo App.css porque este compontent Header será chamado no component App.jsx*/}
-                    <div className="header-content-left">
+                    <div className="header-content-left" data-aos="fade-right">
                         <h1 className="header-title text-upper"> Info98 Tech Desenvolvimentos. </h1>
                         <p className="text"> Lorem ipsum dolor sit, amet consectetur 
                             adipisicing elit. Ullam ratione aperiam iste et natus laborum 
@@ -27,7 +27,7 @@ const Header = () => {
                         </a>
                     </div>  
 
-                    <div className="header-content-right">
+                    <div className="header-content-right" data-aos="fade-left" >
                         <img src={images.header_bg} alt="devices_images" />
                     </div>
                 </div>

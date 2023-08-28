@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
@@ -62,20 +63,26 @@ const Footer = () => {
                             <FaFacebookF />
                         </a>
 
-                        <a href="https://facebook.com" 
+                        <a href="https://twitter.com" 
                             className="bg-red flex flex-center"> 
-                            <FaFacebookF />
+                            <FaTwitter />
                         </a>
 
-                        <a href="https://facebook.com" 
+                        <a href="https://instagram.com" 
                             className="bg-red flex flex-center"> 
-                            <FaFacebookF />
+                            <FaInstagram />
                         </a>
 
-                        <a href="https://facebook.com" 
+                        <a href="https://linkedin.com" 
                             className="bg-red flex flex-center"> 
-                            <FaFacebookF />
+                            <FaLinkedin />
                         </a>
+                    </div>
+
+                    <div className="footer-bottom-text">
+                        <p className="text fs-16"> Copyright &copy; 2023 
+                            Felipe Ferreira. Todos os direitos reservados
+                        </p>
                     </div>
                 </div>
             

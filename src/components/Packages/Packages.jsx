@@ -15,7 +15,8 @@ const Packages = () => {
 
                 <div className="packages-content grid py-6">
                     { data.packages.map((pack, index) => (
-                        <div className="package-item text-center mx-auto" key={index}>
+                        <div className="package-item text-center mx-auto" 
+                            key={index} data-aos="fade-up" data-aos-duration="3000" >
                             <h3 className="package-item-title"> {pack.type} </h3>
                             <ul className="package-item-list">
                                 { pack.service_list.map((serv, i) => (

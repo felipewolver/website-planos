@@ -14,7 +14,7 @@ const Support = () => {
                 </div>
 
                 <div className="support-content grid py-6 text-center">
-                    <div className="support-content-left">
+                    <div className="support-content-left" data-aos="fade-right" >
                         <p className="text mx-auto"> Lorem ipsum dolor sit amet consectetur adipisicing 
                         elit. Quae ab perferendis, necessitatibus nam architecto commodi dicta 
                         dolore voluptate vero, temporibus provident ipsum voluptatum odio 
@@ -28,7 +28,7 @@ const Support = () => {
                         <a href="#" className="btn btn-red"> Support center </a>
                     </div>
                     
-                    <div className="support-content-right">
+                    <div className="support-content-right" data-aos="fade-left">
                         <img src={images.header_background} alt="Support" className="mx-auto" />
                     </div>
                 </div>
